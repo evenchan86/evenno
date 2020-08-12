@@ -10,4 +10,3 @@
 ![Stats](https://github-readme-stats.vercel.app/api?username=evenno&hide=contribs,prs)
 ![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=evenno&hide=ipynb,html&layout=compact)
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=evenno&show_icons=true&theme=dark)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=evenno)](https://github.com/anuraghazra/github-readme-stats)
