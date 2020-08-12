@@ -5,7 +5,7 @@
 - 2020-06-07 [用 Rust 写一个斗兽棋游戏](https://netcan.github.io/2020/06/07/%E7%94%A8Rust%E5%86%99%E4%B8%80%E4%B8%AA%E6%96%97%E5%85%BD%E6%A3%8B%E6%B8%B8%E6%88%8F/)
 - 2020-05-30 [构造、析构期间被调虚函数发生的惨案](https://netcan.github.io/2020/05/30/%E6%9E%84%E9%80%A0%E3%80%81%E6%9E%90%E6%9E%84%E6%9C%9F%E9%97%B4%E8%A2%AB%E8%B0%83%E8%99%9A%E5%87%BD%E6%95%B0%E5%8F%91%E7%94%9F%E7%9A%84%E6%83%A8%E6%A1%88/)
 
-[>>> More blog posts](https://netcan.github.io/archives/)
+[>>> More blog posts](https://opscloud.vip/archives/)
 
 ## Statistics
 ![Stats](https://github-readme-stats.vercel.app/api?username=evenno)
