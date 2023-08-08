@@ -2,22 +2,22 @@
 #-*- coding: UTF-8 -*-
 import requests
 import xml.etree.ElementTree as ET
-import sys
-reload(sys)
-sys.setdefaultencoding( "utf-8" )
+from pathlib import Path
 
 feed = requests.get('https://opscloud.vip/atom.xml').text
 root = ET.fromstring(feed)
 nsfeed = {'nsfeed': 'http://www.w3.org/2005/Atom'}
-with open('README.md', 'w') as f:
-    f.write(r'''
+
+readme_path = Path('README.md')
+with readme_path.open('w') as f:
+    f.write('''
 ## Latest blog posts
 ''')
     for entry in root.findall('nsfeed:entry', nsfeed)[:5]:
         text = entry.find('nsfeed:title', nsfeed).text
         url = entry.find('nsfeed:link', nsfeed).attrib['href']
         published = entry.find('nsfeed:published', nsfeed).text[:10]
-        f.write('- {} [{}]({})\n'.format(published, text, url))
+        f.write(f'- {published} [{text}]({url})\n')
 
     f.write('''
 [>>> More blog posts](https://opscloud.vip/archives/)
